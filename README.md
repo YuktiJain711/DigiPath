@@ -59,15 +59,7 @@ A detailed discussion of the project's approach, data preprocessing steps, and m
 
 The UNet model achieved promising results, indicating accurate segmentation performance, effectively capturing Ki-67 regions within the patches. The generated segmented masks closely aligned with the ground truth annotations, affirming the model's effectiveness. However, since the SegFormer implementation was incomplete, no results could be obtained for this model. Further investigation and debugging are required to fully realize the potential of SegFormer for this specific task.
 
-
-
-To access the complete code, Jupyter Notebooks, and other resources, please visit the GitHub repository. For any inquiries, collaborations, or discussions related to this project, feel free to contact me at:
-
-Name: Yukti Jain
-
-Email: jyukti711@gmail.com
-
-Thank you for your interest in this project, and I hope this work contributes to advancements in cancer research and medical image analysis.
+I hope this work contributes to advancements in cancer research and medical image analysis.
 
 
 <a name="references"></a>
