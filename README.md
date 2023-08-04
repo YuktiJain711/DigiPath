@@ -42,7 +42,7 @@ SegFormer Model: The SegFormer architecture, introduced by Xie et al. [2], utili
 The Ki-67 patches dataset obtained from AIIMS Raipur was preprocessed to ensure standardized input for model training. The images were resized to a common resolution and normalized to a fixed pixel value range. Data augmentation techniques were applied to enhance the training dataset and improve model generalization.
 
 ### UNet Model
-The UNet model was implemented using PyTorch, leveraging its encoder-decoder architecture. Training the model involved using the annotated dataset and optimizing it with binary cross-entropy loss and Dice loss, typical choices for semantic segmentation tasks.
+The UNet model was implemented using Tensorflow, leveraging its encoder-decoder architecture. Training the model involved using the annotated dataset and optimizing it with binary cross-entropy loss and Dice loss, typical choices for semantic segmentation tasks.
 
 ### SegFormer Model (Work in Progress)
 While the UNet model has been successfully implemented, the exploration of the SegFormer model remains a work in progress. The implementation faces some challenges, and further research is required to resolve encountered errors and improve its performance.
